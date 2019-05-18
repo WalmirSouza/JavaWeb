@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+A sua idade é ${param.idade}
 </body>
 </html>

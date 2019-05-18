@@ -13,7 +13,11 @@
   <%
   ClienteDao dao = new ClienteDao();
   List<Cliente>clientes = dao.getClientes();
+  
+  for(Cliente cliente : clientes){
   %>
+	  <li> <%=cliente.getNome()%>,<%=cliente.getEmail()%>, <%=cliente.getEndereco()%></li>
+  }
 </ul>
 </body>
 </html>

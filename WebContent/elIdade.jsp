@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>EL com Idade</title>
 </head>
 <body>
-
+Qual dua idade ?
+<form action="teste_el_idade.jsp"></form>
+Idade: <input name="idade" /> <input type="submit" value="OK" >
 </body>
 </html>
