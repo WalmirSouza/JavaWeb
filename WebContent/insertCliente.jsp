@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="insertCliente">
+<form action="insertCliente" method="post">
 	Nome: <input type="text" name="nome" /><br/>
 	E-mail: <input type="text" name="email" /><br/>
 	Endereço: <input type="text" name="endereco" /><br/>
